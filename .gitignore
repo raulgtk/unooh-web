@@ -1,0 +1,9 @@
+*~
+*.pyc
+.DS_Store
+/conf/settings.py
+/db/dumps/
+/log/
+/media/*/thumbs/
+/static/
+/venv/

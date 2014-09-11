@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+    <head>
+        {% block meta %}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="keywords" content="">
+        {% endblock %}
+
+        {% block style %}
+        <link href="{{ static('layout/css/main.css') }}" rel="stylesheet" media="screen">
+        {% endblock %}
+
+        <!--[if lt IE 9]>
+            <script src="{{ static('basics/js/html5shiv.js') }}"></script>
+            <script src="{{ static('basics/js/respond.min.js') }}"></script>
+        <![endif]-->
+
+        <title>{{ title }}</title>
+    </head>
+
+    <body>
+        <h1>Hello world!</h1>
+        
+        {% block nav %}{% endblock %}
+        {% block content %}{% endblock %}
+        {% block footer %}{% endblock %}
+
+        {% block script %}
+        <script src="{{ static('jquery/js/jquery.min.js') }}"></script>
+        <script src="{{ static('layout/js/main.js') }}"></script>
+        {% endblock %}
+    </body>
+</html>
