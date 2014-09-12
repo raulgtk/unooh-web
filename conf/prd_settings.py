@@ -6,4 +6,4 @@ from .default import *
 DEBUG = True
 
 # Database
-DB_URI = 'postgresql://code:LEM0NADE@localhost/sacromonte_app'
+DB_URI = 'postgresql://code:LEM0NADE@localhost/unooh_web'
