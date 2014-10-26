@@ -1,10 +1,10 @@
 #!/bin/bash
 
 NAME="unooh"
-FLASKDIR="/home/code/deploy/unooh/"
-VIRTUALENV="/home/code/deploy/unooh/venv/"
+FLASKDIR="/home/code/deploy/unooh-web/"
+VIRTUALENV="/home/code/deploy/unooh-web/venv/"
 SOCKFILE="/tmp/gu_unooh.sock"
-ERRORLOG="/home/code/deploy/ekalaiki/log/gu_error.log"
+ERRORLOG="/home/code/deploy/unooh-web/log/gu_error.log"
 USER="code"
 GROUP="code"
 NUM_WORKERS=3
