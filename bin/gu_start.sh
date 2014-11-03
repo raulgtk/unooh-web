@@ -30,4 +30,3 @@ exec gunicorn ${WSGI_MODULE}:application \
     --error-logfile=$ERRORLOG \
     --max-requests 500
     --preload
-
