@@ -35,6 +35,7 @@ LIB = [
     'slug',
     'user',
     'geo',
+    'cors',
 ]
 
 # web modules
